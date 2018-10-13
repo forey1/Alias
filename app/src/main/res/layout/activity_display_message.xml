@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayMessageActivity">
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Отгадал"
+        />
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Не отгадал"
+        />
+            <TextView
+            android:layout_width="wrap_content"
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOut"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="45dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOut1"
+            android:layout_alignParentBottom = "true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="45dp"
+            >
+        </TextView>
+
+    <TextView
+        android:id="@+id/textView123"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="22sp"
+        android:text="мафия"
+        android:background="#e8eaf6"/>
+
+</RelativeLayout>

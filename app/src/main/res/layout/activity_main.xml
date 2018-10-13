@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+    <Button
+        android:id="@+id/first_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="sendMessage"
+        android:text="Легкий уровень"
+        android:background="#FFFFFF"
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+       />
+
+
+</RelativeLayout>
